@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      main: ["Mulish", "sans-serif"],
+      mulish: ["Mulish", "sans-serif"],
+      space: ["Space Grotesk", "sans-serif"],
     }
   },
   plugins: [],

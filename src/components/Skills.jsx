@@ -7,8 +7,8 @@ import react from '../assets/prg languages logos/React.webp'
 
 const Skills = () => {
   return (
-    <div className='md:flex-col text-center md:justify-center md:p-10 pt-20 pb-20 md:mt-20 bg-[#141414] text-[#f7e7cd]'>
-      <h1 className='text-4xl font-semibold pt-5 pb-10 md:pb-0'>My Skills</h1>
+    <div className='md:flex-col text-center md:justify-center md:p-28 pt-10 pb-20 bg-[#141414] text-[#f7e7cd] font-space' id='skills'>
+      <h1 className='text-4xl md:text-6xl font-semibold pt-10 md:pb-0'>My Skills</h1>
       
       <div className='grid grid-cols-2 md:grid-cols-4 items-center md:pt-20 scale-75 md:hidden'>
         <div className='flex-col items-center scale-75 md:scale-100'>

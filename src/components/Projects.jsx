@@ -5,7 +5,7 @@ import aistart from '../assets/projects/ai-start-up.jpg'
 
 const Projects = () => {
   return (
-    <div className='bg-[#141414] text-[#f7e7cd] pt-20 pb-20 px-10' id='projects'>
+    <div className='bg-[#141414] text-[#f7e7cd] pt-20 md:pt-36 pb-20 px-10 font-space' id='projects'>
         <h1 className='text-4xl md:text-6xl font-semibold pt-5 pb-10 text-center'>Projects</h1>
         
         <div className='grid grid-cols-1 gap-20 md:gap-10'>
@@ -22,7 +22,7 @@ const Projects = () => {
                             <p className='md:text-2xl '>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br/> Accusamus molestiae aspernatur dolores hic fugit rem id reprehenderit necessitatibus cupiditate sit,<br/> consequatur impedit fuga, cumque exercitationem odio error quas obcaecati distinctio!</p>
                         </div>
                         <div className='md:scale-150 md:mt-10'>
-                            <a href="https://github.com/vndrre/AI-website"><Button>View project</Button></a>
+                            <a href="https://github.com/vndrre/AI-website"><Button>View Github Project</Button></a>
                         </div>
 
                     </div>
@@ -42,7 +42,7 @@ const Projects = () => {
                             <p className='md:text-2xl '>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br/> Accusamus molestiae aspernatur dolores hic fugit rem id reprehenderit necessitatibus cupiditate sit,<br/> consequatur impedit fuga, cumque exercitationem odio error quas obcaecati distinctio!</p>
                         </div>
                         <div className='md:scale-150 md:mt-10'>
-                            <a href="https://github.com/vndrre/AI-website"><Button>View project</Button></a>
+                            <a href="https://github.com/vndrre/AI-website"><Button>View Github Project</Button></a>
                         </div>
 
                     </div>
